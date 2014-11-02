@@ -1,5 +1,5 @@
 name "jenkins"
-description "Jenkins Build Server Role"
+description "Jenkins Role"
 
 run_list(
   "role[base]",
