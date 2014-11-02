@@ -2,8 +2,7 @@ name "jenkins"
 description "Jenkins Build Server Role"
 
 run_list(
-  "role[base]",
-  "recipe[jenkins::server]",
+  "recipe[jenkins::master]",
 )
 
 override_attributes(
